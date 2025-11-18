@@ -21,22 +21,34 @@ A clean, user-friendly personal diary application built with Django. Keep track 
 
 🚀 Installation
 
-- Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
+- Clone the repository:
+ ```
+git clone <project url>
+ ```
 
-- Install dependencies
+- Install dependencies:
+ ```
 pip install -r requirements.txt
+ ```
 
-
-- Apply migrations
+- Apply migrations:
+ ```
 python manage.py makemigrations
 python manage.py migrate
+ ```
 
-- Admin access
+- Admin access:
+ ```
 python manage.py createsuperuser
+ ```
 
 
 - Run the development server
+ ```
 python manage.py runserver
+ ```
 
-Access the app at http://127.0.0.1:8000 and http://127.0.0.1:8000/admin for admin dashboard
+- access the web app via
+ ```
+Access the app at http://127.0.0.1:8000
+ ```
